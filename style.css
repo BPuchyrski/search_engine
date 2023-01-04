@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(235, 229, 221);
+}
+.wrapper {
+  width: 800px;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+}
+
+.header {
+  padding: 20px 40px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.5) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("https://images.unsplash.com/photo-1560963689-b5682b6440f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=796&q=80");
+  background-blend-mode: multiply;
+  background-position: 50% 65%;
+  background-size: cover;
+  font-family: "Pacifico", cursive;
+  color: white;
+}
+
+.search {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.801);
+}
+.drink-list {
+  padding: 20px 40px;
+}
+.list {
+  list-style: none;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.list_item {
+  margin-bottom: 12px;
+}
+.hide {
+  display: none;
+}
